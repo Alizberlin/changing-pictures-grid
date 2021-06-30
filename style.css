@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 1px;
+	height: 100vh;
+}
+.item {
+	background-color: antiquewhite;
+	color: goldenrod;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    border: white 0.5px solid;
+}
+.number1 {
+	background-image: url("https://picsum.photos/800");
+	grid-area: 1 / 1 / 3 / 3;
+}
+.number2 {
+	background-image: url("https://picsum.photos/810");
+	grid-area: 2 / 2 / 4 / 4;
+	color: tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+	font-size: 55px;
+	padding: 10px;
+	text-shadow: grey 2px 2px 5px;
+}
+.number3 {
+	background-image: url("https://picsum.photos/820");
+	grid-area: 3 / 3 / 5 / 5;
+}
+.number4 {
+	background-image: url("https://picsum.photos/900");
+	grid-column: 2 / 4;
+	grid-row: 1;
+}
+.number5 {
+	background-image: url("https://picsum.photos/700");
+}
+.number6 {
+	background-image: url("https://picsum.photos/710");
+}
+.number7 {
+	background-image: url("https://picsum.photos/750");
+}
+.number8 {
+	background-image: url("https://picsum.photos/760");
+}
+.number9 {
+	background-image: url("https://picsum.photos/780");
+}
